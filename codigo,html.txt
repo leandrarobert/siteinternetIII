@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caça-níquel Interativo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Blog do Caça-níquel</h1>
+      <p>Divirta-se jogando e veja se você tem sorte!</p>
+    </header>
+    
+    <main>
+      <div class="slot-machine">
+        <div class="slot">
+          <div class="reel" id="slot1">🍒</div>
+        </div>
+        <div class="slot">
+          <div class="reel" id="slot2">🍋</div>
+        </div>
+        <div class="slot">
+          <div class="reel" id="slot3">🍇</div>
+        </div>
+      </div>
+      <button id="spinButton">Girar</button>
+      <p id="result"></p>
+    </main>
+    
+    <footer>
+      <p>&copy; 2024 Blog do Caça-níquel. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="glitter.js"></script>
+</body>
+</html>
+
+
+
